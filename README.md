@@ -12,23 +12,23 @@ All content on the UN/CEFACT github is free to use.  Repositories are tagged wit
 
 ## Status Lifecycle
 
-All repositories will be tagged with a status that defines usability for implementers.
+All repositories will be tagged with a status that defines usability for implementers. 
 
 |Status|Definition|Usage|
 |---|---|---|
-|![Raw](/images/raw.svg)|Every new specification or major version starts with raw status|experimental use only|
-|![Draft](/images/draft.svg)|When a specifciation is completed and testable (ie it has a working test harness) then it becomes draft|suitable for beta testing|
-|![Stable](/images/stable.svg)|When a specification has a successful third party implementation (ie passes conformance test cases) then it becomes stable.|safe to implement in production systems|
-|![Deprecated](/images/deprecated.svg)|When a specification is superseded by a new major version then the previous major version is deprecated|may still be used in production but should not be used for new builds|
-|![Retired](/images/retired.svg)|when a specification is obsolete and should no longer be used in any production deployment then it becomes retired|remains on this site for historical reference puposes|
-|![Deleted](/images/deleted.svg)|Usually applies to unsuccessful specifications that never made it to stable status|Will be removed from this site|
+|![Raw](/images/raw.svg)|Every new standard or major version starts with raw status|experimental use only|
+|![Draft](/images/draft.svg)| When a standard is completed and testable then it becomes draft|suitable for beta testing|
+|![Stable](/images/stable.svg)|When at least two successful implementations have passed conformance testing then the standard becomes stable.|safe to implement in production systems|
+|![Deprecated](/images/deprecated.svg)|When a sstandard is superseded by a new major version then the previous major version is deprecated|may still be used in production but should not be used for new builds|
+|![Retired](/images/retired.svg)|when a standard is obsolete and should no longer be used in any production deployment then it becomes retired|remains on this site for historical reference puposes|
+|![Deleted](/images/deleted.svg)|Usually applies to unsuccessful standards that never made it to stable status|Will be removed from this site|
 
 ## Version Management
 
 All poblications (both standards and software) will follow [semver conventions](https://semver.org/) with a major.minor.patch version numbering system (eg version 1.5.3). The following rules apply to versioning
 
 |Version level|definition|
-|---|---|---|
+|---|---|
 |major|a breaking change that requires a change to consumer systems|
 |minor|a functional change or enhancement that is non breaking (eg a new optional property in an API)|
 |patch|a non functional change such as a documentation update|
