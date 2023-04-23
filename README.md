@@ -33,6 +33,12 @@ All poblications (both standards and software) will follow [semver conventions](
 |minor|a functional change or enhancement that is non breaking (eg a new optional property in an API)|
 |patch|a non functional change such as a documentation update|
 
+## Release Process
+
+Vocabularies and schema are designed in Jargon, maintained in GitHub and released to test and production URLs as described in the diagram below.
+
+![releaseProcess](./images/UNECE_GitHubVocabularyReleaseProcess.png)
+
 ## Implementation Conformance
 
 * Specifications will follow  [IETF "MUST", "SHOULD" "MAY"](https://www.ietf.org/rfc/rfc2119.txt) language so that it's clear what a conforming implementation means.  We will also aim to provide free open source conformance testing tools so that you may test your implementations. 
