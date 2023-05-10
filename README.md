@@ -42,7 +42,7 @@ Vocabularies and schema are designed in Jargon, maintained in GitHub and release
 ## Implementation Conformance
 
 * Specifications will follow  [IETF "MUST", "SHOULD" "MAY"](https://www.ietf.org/rfc/rfc2119.txt) language so that it's clear what a conforming implementation means.  We will also aim to provide free open source conformance testing tools so that you may test your implementations. 
-* voluntary comminity support is available via the relevant slack channel and repository issues list. 
+* voluntary community support is available via the relevant slack channel and repository issues list. 
 
 
 
