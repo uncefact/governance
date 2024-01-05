@@ -2,7 +2,7 @@
 
 ## Free to use
 
-All content on the UN/CEFACT github is free to use.  Repositories are tagged with the license type that is applicable, usually GPL2. 
+All content on the UN/CEFACT github is free to use.  Repositories are tagged with the license type that is applicable, usually GPL3. 
 
 ## Contribution requirements
 
@@ -12,7 +12,7 @@ All content on the UN/CEFACT github is free to use.  Repositories are tagged wit
 
 ## Status Lifecycle
 
-All repositories will be tagged with a status that defines usability for implementers. 
+All specifications will be tagged with a status that defines usability for implementers. 
 
 |Status|Definition|Usage|
 |---|---|---|
@@ -32,12 +32,6 @@ All poblications (both standards and software) will follow [semver conventions](
 |major|a breaking change that requires a change to consumer systems|
 |minor|a functional change or enhancement that is non breaking (eg a new optional property in an API)|
 |patch|a non functional change such as a documentation update|
-
-## Release Process
-
-Vocabularies and schema are designed in Jargon, maintained in GitHub and released to test and production URLs as described in the diagram below.
-
-![releaseProcess](./images/UNECE_GitHubVocabularyReleaseProcess.png)
 
 ## Implementation Conformance
 
